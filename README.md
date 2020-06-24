@@ -1,2 +1,2 @@
-# sistema_emebidos
+# Embedded systems
 Final project of embedded systems  
