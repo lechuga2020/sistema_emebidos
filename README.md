@@ -3,6 +3,7 @@ Final project of embedded systems
 
 ##Steps to install python web service: 
 
+...bash
 sudo apt install python3-pip
 
 pip3 install virtualenv
@@ -16,9 +17,12 @@ pip install -r requirements.txt
 pip intall flask
 
 FLASK_APP=service.py flask run 
+...
 
 ##Linuxs command to enter to virtual env. and run flask: 
 
+...bash
 source .venv/bin/activate
 FLASK_APP=service.py flask run
+...
 
