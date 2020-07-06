@@ -29,3 +29,11 @@ FLASK_APP=service.py flask run
 source .venv/bin/activate
 
 FLASK_APP=service.py flask run
+
+## GIt-Hub content
+
+* Coeff.txt: It is a text file that contains in a single column, the coefficients of the low-pass filter.
+
+* X_signal.txt:  It is a text file containing the samples of a voice signal mixed with several other signals with frequencies higher than 4000Hz. This will be the signal to be filtered, the user can modify this file or put his own.  
+
+
