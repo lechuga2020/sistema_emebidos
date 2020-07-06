@@ -32,8 +32,8 @@ FLASK_APP=service.py flask run
 
 ## GIt-Hub content
 
-* Coeff.txt: It is a text file that contains in a single column, the coefficients of the low-pass filter.
+* Coeff.txt: It is a text file that contains in a single column, the coefficients of the low-pass filter of order 25.
 
-* X_signal.txt:  It is a text file containing the samples of a voice signal mixed with several other signals with frequencies higher than 4000Hz. This will be the signal to be filtered, the user can modify this file or put his own.  
+* X_signal.txt: It is a text file containing the samples of a voice signal mixed with several other signals with frequencies higher than 4000Hz. This will be the signal to be filtered, the user can modify this file or put his own.  
 
-
+* service.py: Python program that runs the web service and executes the FIR filter algorithm.  
