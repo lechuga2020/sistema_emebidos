@@ -1,5 +1,9 @@
 # Embedded systems
-Final project of embedded systems  
+Final project of embedded systems
+
+## Abstract project
+
+The aim of this project is to apply knowledge of git_hub, linux, python and signal processing. That's why the project consists of a python web service of the appi Flask for low-pass filtering of a signal with 4000 Hz cutoff frequency. The web service simulates the data collection of an AD by reading a txt file, and by reading a text file containing the pass filter coefficients it will perform the signal filtering.  The result for the user is a data file of the filtered signal and a comparison chart of the before and after filtering
 
 ## Steps to install python web service: 
 
@@ -23,4 +27,5 @@ FLASK_APP=service.py flask run
 
 
 source .venv/bin/activate
+
 FLASK_APP=service.py flask run
