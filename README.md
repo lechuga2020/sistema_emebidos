@@ -22,7 +22,6 @@ pip intall flask
 
 FLASK_APP=service.py flask run 
 
-
 ## Linuxs command to enter to virtual env. and run flask: 
 
 
@@ -36,4 +35,16 @@ FLASK_APP=service.py flask run
 
 * X_signal.txt: It is a text file containing the samples of a voice signal mixed with several other signals with frequencies higher than 4000Hz. This will be the signal to be filtered, the user can modify this file or put his own.  
 
+* chirp.txt: is a file which contains a sample chirp signal. A chirp signal is one that increases in frequency over time
+
 * service.py: Python program that runs the web service and executes the FIR filter algorithm.  
+
+* Report: Document that explain better the details of the project. 
+
+##Video test
+The following link sends to a video where it shows the operation of the project on a voice signal. 
+
+https://vimeo.com/user119281215/review/437217015/e89110ca27
+
+
+

@@ -24,9 +24,9 @@ app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 @app.route("/")
-def root():
+#def root():
     
-    return "hello, World!"
+ #   return "hello, World!"
 
 @app.route('/filtro')
 def filtro():
@@ -34,7 +34,8 @@ def filtro():
     A_coeff = np.genfromtxt('coeff.txt', dtype='double')
     archivo.close()
     archivo = open("X_signal.txt", 'r')
-    x_i = np.genfromtxt('X_signal.txt', dtype='double')
+    #x_i = np.genfromtxt('X_signal.txt', dtype='double')
+    x_i = np.genfromtxt('chirp.txt', dtype='double')
 
     archivo.close()
     n = len(A_coeff);
@@ -86,15 +87,15 @@ def plot_png(x,y):
 
     return Response(output.getvalue(), mimetype='image/png')
 def create_figure(x,y):
-	with open('register.dat') as file:
-		file_data = file.readlines()
-	# create figure
-	fig = Figure()
-	axis = fig.add_subplot(1, 1, 1)
-	axis.plot(x)    
-	axis.plot(y)
-
-	return fig 
+    with open('register.dat') as file:
+	    file_data = file.readlines()
+    # create figure
+    fig = Figure()
+    axis = fig.add_subplot(1, 1, 1)
+    axis.plot(x) 
+    axis.plot(y)
+    axis.legend(['Non filtered signal','Filtered signal'])   
+    return fig 
 
 if __name__=="__main__":
     app.run()
