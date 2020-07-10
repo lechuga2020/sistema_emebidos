@@ -44,7 +44,7 @@ FLASK_APP=service.py flask run
 ## Video test
 The following link sends to a video where it shows the operation of the project on a voice signal. 
 
-https://vimeo.com/user119281215/review/437217015/e89110ca27
+https://drive.google.com/file/d/1r9-_vOwaVZTSRnxV4sCxwmlgcc7CKu-7/view?usp=sharing
 
 
 
