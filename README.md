@@ -39,9 +39,9 @@ FLASK_APP=service.py flask run
 
 * service.py: Python program that runs the web service and executes the FIR filter algorithm.  
 
-* Report: Document that explain better the details of the project. 
+* Reporte_proyecto_Sergio-Aldo-Lechuga.docx: Document that explain better the details of the project. 
 
-##Video test
+## Video test
 The following link sends to a video where it shows the operation of the project on a voice signal. 
 
 https://vimeo.com/user119281215/review/437217015/e89110ca27
